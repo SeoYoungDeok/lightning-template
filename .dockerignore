@@ -1,0 +1,10 @@
+.venv
+.env
+Dockerfile
+.dockerignore
+wandb
+data
+checkpoint
+outputs
+poetry.lock
+test.py

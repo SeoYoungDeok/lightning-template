@@ -1,7 +1,7 @@
 # Lightning Template
 > 빠르고 간편하게 시작할 수 있는 pytorch lightning 템플릿입니다.
 
-## 설치 방법
+## 사용 방법
 
 템플릿을 사용하기 위해 python3.11 버전과 poetry 설치가 필요합니다.
 
@@ -17,6 +17,19 @@ poetry install
 repository를 clone을 받고 poetry install을 통해 패키지를 설치해 주세요.
 
 또는 requirements.txt를 통해 패키지를 설치해 주세요.
+
+### docker 사용 시
+```sh
+docker pull seoyoungdeok/lightning-template
+docker run -it --gpus all seoyoungdeok/lightning-template
+```
+docker image를 받아서 실행
+
+```sh
+bash settings.sh
+poetry install
+```
+container 접속 후 bash shell에서 settings.sh와 poetry install 실행
 
 ## 사용 예제
 
