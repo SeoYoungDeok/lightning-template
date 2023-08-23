@@ -1,5 +1,5 @@
-# 프로젝트명
-> 빠르게 실행할 수 있는 pytorch lightning 템플릿입니다.
+# Lightning Template
+> 빠르고 간편하게 시작할 수 있는 pytorch lightning 템플릿입니다.
 
 ## 설치 방법
 
