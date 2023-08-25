@@ -9,7 +9,7 @@
 torch = {url = "https://download.pytorch.org/whl/cu118/torch-2.0.1%2Bcu118-cp311-cp311-win_amd64.whl"}
 torchvision = {url = "https://download.pytorch.org/whl/cu118/torchvision-0.15.2%2Bcu118-cp311-cp311-win_amd64.whl"}
 ```
-먼저 <a href=https://download.pytorch.org/whl/torch_stable.html>여기</a>에서 자신에게 맞는 버전의 패키지 링크를 확인하고 pyprojrct.toml을 수정해 주세요.
+먼저 <a href=https://download.pytorch.org/whl/torch_stable.html>여기</a>에서 자신에게 맞는 버전의 패키지 링크를 확인하고 pyproject.toml을 수정해 주세요.
 
 ```sh
 poetry install

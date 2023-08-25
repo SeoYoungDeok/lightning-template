@@ -39,3 +39,5 @@ ENV PATH="/root/.local/bin:${PATH}"
 WORKDIR /lightning_template
 
 COPY . .
+
+RUN poetry install
