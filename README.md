@@ -23,13 +23,7 @@ repository를 clone을 받고 poetry install을 통해 패키지를 설치해 �
 docker pull seoyoungdeok/lightning-template
 docker run -it --gpus all seoyoungdeok/lightning-template
 ```
-docker image를 받아서 실행
-
-```sh
-bash settings.sh
-poetry install
-```
-container 접속 후 bash shell에서 settings.sh와 poetry install 실행
+docker image를 받아서 실행하세요.
 
 ## 사용 예제
 
